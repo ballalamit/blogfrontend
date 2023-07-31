@@ -29,7 +29,7 @@ function Login() {
         localStorage.setItem("token", token)
 
         if(response.data.message == "Login Successfull"){
-          navigate(`/blogs`)
+          navigate(`/`)
         }
         
       });
